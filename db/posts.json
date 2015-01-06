@@ -1,0 +1,14 @@
+{
+  "index": "1",
+  "posts": [
+    {
+      "id": "1",
+      "title": "First blog post",
+      "author": "Mr. Puffi",
+      "posted_on": "1420475667168",
+      "tags": ["programming", "resources"],
+      "file": "1.md",
+      "url": "post/first-blog-post/1"
+    }
+  ]  
+}

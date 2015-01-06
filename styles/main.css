@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Lekton:400,700,400italic);
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lekton', sans-serif;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 12px;
+  overflow-x: none;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+pre {
+  background-color: transparent;
+  border: none;
+}
+
+a, a:visited, a:focus, a:active {
+  color: #333;  
+  text-decoration: none;
+  -moz-transition:color .2s ease-in;
+  -o-transition:color .2s ease-in;
+  -webkit-transition:color .2s ease-in;
+}
+
+a:hover {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+div.header {
+  margin-bottom: 40px;
+}
+
+div.header h1#blog-title {
+  font-size: 46px;
+  text-align: center;
+}
+
+div#main-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -30px;
+}
+
+div#error-page {
+  text-align: center;
+}
+
+div#error-page h2 {
+  font-size: 120px;
+}
+
+div#blog-post h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div#blog-post a {
+  color: #16a085;
+}
+
+div#blog-post a:hover {
+  text-decoration: underline;
+}
+
+a.post-title h2 {
+  color: #333;
+  text-align: left;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+div.post-info {
+  font-size: 12px;
+}
+
+ul.post-tags-list {
+  padding-left: 0;
+}
+
+div.posts-container {
+  padding-bottom: 15px;
+}
+
+ul.post-tags-list li {
+  float: left;
+  padding-right: 10px;
+  list-style-type: none;
+}
+
+nav#blog-menu {
+  background: none;
+  border: none;
+  min-height: 0;
+}
+
+div#blog-menu-container {
+  padding-left: 0;
+}
+
+div#menu-items {
+  padding-left: 0;
+  text-align: center;
+}
+
+ul.navbar-nav {
+}
+
+div#menu-items ul li a {
+  padding: 0;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+div#menu-items ul li {
+  text-transform: uppercase;
+  display: inline;
+  list-style-type: none;
+}
+
+div#footer {
+  height: 30px;
+}
+
+div#menu-items .active > a {
+  font-weight: bold;
+  background: none;
+}
+
+div#menu-items .active > a:hover {
+  color: #333;
+}
+
+pre {
+  font-size: 10px;
+}

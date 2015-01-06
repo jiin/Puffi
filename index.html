@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="devApp" ng-controller="BaseCtrl">
+  <head>
+    <meta charset="utf-8">
+
+    <title ng-bind="blog.name">❤ P ❤</title>
+    
+    <base href="/your/puffi/path/"> <!-- [!!!] change the original value [!!!] -->
+
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="description" content="{{blog.description}}">
+    <meta name="author" content="{{blog.author}}">
+    <meta name="keywords" content="{{blog.keywords}}">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/github.css" />
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="container-fluid" id="main-container" ng-cloak>
+      <div class="header">
+        <h1 class="text-muted" id="blog-title">
+          <a href="./" ng-click="setPage('')">{{blog.name}}</a>
+        </h1>
+      </div>
+      <nav class="navbar navbar-default" id="blog-menu">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3" id="menu-items">
+            <ul>
+              <li ng-class="{active: page == ''}"><a href="./" ng-click="setPage('')">index</a></li>
+              <li ng-class="{active: page == 'about'}"><a href="about" ng-click="setPage('about')">about</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div ng-view=""></div>
+    </div>
+    <div id="footer" class="hidden-xs">
+      <p class="muted credit pull-right">Proudly powered by <strong>Puffi</strong> blog engine.</p>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/highlightjs/highlight.pack.js"></script>
+    <script src="bower_components/angular-highlightjs/angular-highlightjs.min.js"></script>
+    <script src="bower_components/showdown/compressed/showdown.js"></script>
+    <script src="bower_components/showdown/src/extensions/twitter.js"></script>
+    <script src="scripts/showdown/src/extensions/prettify.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/post.js"></script>
+    <script src="scripts/controllers/error.js"></script>
+    <script src="scripts/controllers/tag.js"></script>
+    <script src="scripts/controllers/page.js"></script>
+    <script src="scripts/controllers/rss.js"></script>
+    <script src="scripts/config/base.js"></script>
+    <script src="scripts/controllers/base.js"></script>
+    <script src="scripts/services/blogservice.js"></script>
+    <script src="scripts/directives/maindirective.js"></script>
+</body>
+</html>

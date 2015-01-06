@@ -1,0 +1,14 @@
+<div ng-if="!loaded">...</div>
+<div class="posts-container" ng-if="loaded">
+  <p>Results for {{type}} search of '{{tag}}':</p>
+  <div ng-if="!results.length">
+    <p>No results found, sorry.</p>
+  </div>
+  <div ng-if="results">
+    <div class="post" ng-repeat="post in results">
+      <a ng-href="{{post.url}}" class="post-title">
+        <h2>{{post.title}}</h2>
+      </a>
+    </div>
+  </div>
+</div>
