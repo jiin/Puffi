@@ -6,5 +6,5 @@ angular.module('configuration', [])
     email: "blah.puffi@gmail.com",
     keywords: "foo, bar, omg",
     theme: "default",
-    baseurl: "/your/puffi/path/"
+    baseurl: "/dev/Puffi/"
   });

@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteBase /your/puffi/path/
+RewriteBase /dev/Puffi/
 
 # experimental
 #<IfModule mod_headers.c>
