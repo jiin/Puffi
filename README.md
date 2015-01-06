@@ -18,9 +18,6 @@ Puffi is an [angular.js](https://angularjs.org/) blog engine written in pure jav
 * Make management client
 * Add SASS or LESS for style templating
 * Add more themes
-<<<<<<< HEAD
-* Social sharing
-=======
 * Social sharing
 
 ### Test it
@@ -60,4 +57,3 @@ angular.module('configuration', [])
 
 That's all!
 Puffi is actually in experiment phase, for bug or other issues open a thread in issues section.
->>>>>>> c8ae09cb4f0c34f81b9e7b44ab864b103082126b
