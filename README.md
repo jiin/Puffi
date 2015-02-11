@@ -1,6 +1,8 @@
 Puffi
 =====
 
+![puffi](http://neribarnini.me/img/puffijs_logo.png)
+
 Puffi is an [angular.js](https://angularjs.org/) blog engine written in pure javascript, no back-end scripts needed.
 
 ### Features
@@ -10,7 +12,7 @@ Puffi is an [angular.js](https://angularjs.org/) blog engine written in pure jav
 * Automatic twitter nickname hightlighting in blog post
 * Custom page making
 * Tag searching
-* Social Sharing
+* Social sharing
 
 ### TODO
 
