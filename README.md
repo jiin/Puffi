@@ -10,15 +10,16 @@ Puffi is an [angular.js](https://angularjs.org/) blog engine written in pure jav
 * Automatic twitter nickname hightlighting in blog post
 * Custom page making
 * Tag searching
+* Social Sharing
 
 ### TODO
 
-* Improving page making
-* Add post searching
-* Make management client
-* Add SASS or LESS for style templating
-* Add more themes
-✔ Social sharing
+* ✘ Improving page making
+* ✘ Add post searching
+* ✘ Make management client
+* ✘ Add SASS or LESS for style templating
+* ✘ Add more themes
+* ✔ Social sharing
 
 ### Test it
 
