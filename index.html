@@ -13,8 +13,9 @@
     <meta name="author" content="{{blog.author}}">
     <meta name="keywords" content="{{blog.keywords}}">
 
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="bower_components/highlightjs/styles/github.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/github.css">
+    <link rel="stylesheet" href="bower_components/angular-socialshare/angular-socialshare.min.css">
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
@@ -53,7 +54,13 @@
     <script src="bower_components/angular-highlightjs/angular-highlightjs.min.js"></script>
     <script src="bower_components/showdown/compressed/showdown.js"></script>
     <script src="bower_components/showdown/src/extensions/twitter.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/angular-moment/angular-moment.js"></script>
+    <script src="bower_components/angular-socialshare/angular-socialshare.min.js"></script>
+
     <script src="scripts/showdown/src/extensions/prettify.js"></script>
+    <script src="http://platform.twitter.com/widgets.js"></script>
+    <script src="http://platform.tumblr.com/v1/share.js"></script>
 
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
@@ -63,6 +70,7 @@
     <script src="scripts/controllers/page.js"></script>
     <script src="scripts/controllers/rss.js"></script>
     <script src="scripts/config/base.js"></script>
+    <script src="scripts/filters/myFilters.js"></script>
     <script src="scripts/controllers/base.js"></script>
     <script src="scripts/services/blogservice.js"></script>
     <script src="scripts/directives/maindirective.js"></script>

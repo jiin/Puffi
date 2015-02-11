@@ -16,7 +16,9 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'djds4rce.angular-socialshare',
     'blogServices',
+    'angularMoment',
     'configuration',
     'hljs'
   ])
@@ -53,8 +55,12 @@ angular
     if (window.history && window.history.pushState)
       $locationProvider.html5Mode(true);
     
-  }).config(function (hljsServiceProvider) {
+  })
+  .config(function (hljsServiceProvider) {
     hljsServiceProvider.setOptions({
       tabReplace: '2'
     });
+  })
+  .run(function($FB) {
+    $FB.init('498288443644457');
   });

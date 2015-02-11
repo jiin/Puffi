@@ -8,9 +8,11 @@
  * Controller of the devApp
  */
 angular.module('devApp')
-  .controller('PostCtrl', function ($scope, $routeParams, $location, $cacheFactory, Posts) {
+  .controller('PostCtrl', function ($scope, $routeParams, $location, $cacheFactory, Posts, BLOG) {
 
     var pid = $routeParams.id - 1;
+
+    $scope.blog = BLOG;
 
     if (!$cacheFactory.get('puffi')) {
       Posts.get(function (data) {
@@ -22,6 +24,9 @@ angular.module('devApp')
           $location.path('/error/404');
 
         $scope.post = $scope.posts[pid];
+
+
+        $scope.post.url = document.location.origin + document.location.pathname;
       });
     } else {
       $scope.loaded = true;

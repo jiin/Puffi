@@ -102,6 +102,29 @@ ul.post-tags-list li {
   list-style-type: none;
 }
 
+div#blog-post-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+ul#blog-post-share {
+  padding: 0;
+}
+
+ul#blog-post-share li {
+  float: left;
+  display: inline;
+  margin-right: 10px;
+}
+
+br.clear {
+  clear: both;
+}
+
 nav#blog-menu {
   background: none;
   border: none;
